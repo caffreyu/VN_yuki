@@ -1,9 +1,0 @@
-﻿I'm sorry, but errors were detected in your script. Please correct the
-errors listed below, and try again.
-
-
-File "game/screens.rpy", line 564: is not terminated with a newline. (Check strings and parenthesis.)
-                            action [
-
-Ren'Py Version: Ren'Py 8.1.0.23051307
-Sun Jun  4 02:47:10 2023
