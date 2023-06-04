@@ -556,10 +556,15 @@ screen file_slots(title,scroll=None):
                 spacing 50
                 for i in range(gui.file_slot_cols * gui.file_slot_rows):
                     $ slot = i + 1
+                    
                     button:
                         background "gui/button/存读档_按钮_idle.png"
                         hover_background "gui/button/存读档_按钮_hover.png"
-                        action FileAction(slot)
+                        # action FileAction(slot)
+                        action [
+                            SetVariable("save_name", "【" + _history_list[-1].who + "】 " + _history_list[-1].what),
+                            FileSave(slot, confirm = True)
+                        ]
                         hbox:
                             spacing 40
                             if FileTime(slot):
@@ -568,6 +573,8 @@ screen file_slots(title,scroll=None):
                                     xalign 0.5
                                     text "{color=#e6a1f8}%s{/color}" % FileTime(slot, format=_("{#file_time}%Y/%m/%d %H:%M")):
                                         style "slot_time_text"
+                                    text FileSaveName(slot):
+                                        style "slot_name_text"
                             else:
                                 image "gui/button/slot_idle_background.png" align(0.0, 0.6) zoom 0.9 offset(20, 10)
                                 vbox:

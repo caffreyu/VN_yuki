@@ -1,4 +1,4 @@
-Sun Jun  4 00:56:47 2023
+Sun Jun  4 02:47:28 2023
 Linux-5.15.0-72-generic-x86_64-with-glibc2.31
 Ren'Py 8.1.0.23051307
  
@@ -7,7 +7,7 @@ Bootstrap to the start of init.init. took 0.03s
 Early init. took 0.00s
 Loader init. took 0.00s
 Loading error handling. took 0.02s
-Loading script. took 0.16s
+Loading script. took 0.17s
 Loading save slot metadata. took 0.02s
 Loading persistent. took 0.00s
 Running init code. took 0.03s
@@ -28,15 +28,15 @@ Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.01s
-Prepare screens took 0.05s
+Prepare screens took 0.06s
 Save pyanalysis. took 0.01s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start. took 0.08s
+Interface start. took 0.11s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 360, 1920, 1080)
+primary display bounds: (1920, 0, 2560, 1440)
 swap interval: 1 frames
 Windowed mode.
 Vendor: "b'NVIDIA Corporation'"
@@ -45,211 +45,5 @@ Version: b'4.6.0 NVIDIA 470.161.03'
 Display Info: None
 Screen sizes: virtual=(1280, 720) physical=(1280, 720) drawable=(1280, 720)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1848, 1016) drawable=(1848, 1016)
+Screen sizes: virtual=(1280, 720) physical=(2488, 1376) drawable=(2488, 1376)
 Maximum texture size: 4096x4096
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 1, 0, 23051307], '_version': '1.0'}
-
-{'_save_name': '', '_renpy_version': [8, 0, 3, 22090809], '_version': '1.0'}

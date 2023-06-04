@@ -1,105 +1,24 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/screens.rpy", line 532, in execute
-    screen load():
-  File "game/screens.rpy", line 532, in execute
-    screen load():
-  File "game/screens.rpy", line 536, in execute
-    use file_slots(_("读取游戏"),"viewport")
-  File "game/screens.rpy", line 539, in execute
-    screen file_slots(title,scroll=None):
-  File "game/screens.rpy", line 539, in execute
-    screen file_slots(title,scroll=None):
-  File "game/screens.rpy", line 546, in execute
-    side "c r":
-  File "game/screens.rpy", line 548, in execute
-    viewport id "slot":
-  File "game/screens.rpy", line 552, in execute
-    grid gui.file_slot_cols gui.file_slot_rows:
-  File "game/screens.rpy", line 557, in execute
-    for i in range(gui.file_slot_cols * gui.file_slot_rows):
-  File "game/screens.rpy", line 559, in execute
-    button:
-  File "game/screens.rpy", line 564, in execute
-    hbox:
-  File "game/screens.rpy", line 566, in execute
-    if FileTime(slot):
-  File "game/screens.rpy", line 568, in execute
-    vbox:
-  File "game/screens.rpy", line 573, in execute
-    text who
-  File "game/screens.rpy", line 573, in <module>
-    text who
-NameError: name 'who' is not defined
+After loading the script.
+TypeError: can only concatenate str (not "dict") to str
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
-    python hide:
-  File "/home/caffreyu/Downloads/renpy-8.1.0-sdk/renpy/ast.py", line 1138, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/home/caffreyu/Downloads/renpy-8.1.0-sdk/renpy/python.py", line 1122, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
-    python hide:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
-    ui.interact()
-  File "/home/caffreyu/Downloads/renpy-8.1.0-sdk/renpy/ui.py", line 299, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "/home/caffreyu/Downloads/renpy-8.1.0-sdk/renpy/display/core.py", line 3499, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/home/caffreyu/Downloads/renpy-8.1.0-sdk/renpy/display/core.py", line 3969, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "/home/caffreyu/Downloads/renpy-8.1.0-sdk/renpy/display/core.py", line 605, in visit_all
-    d.visit_all(callback, seen)
-  File "/home/caffreyu/Downloads/renpy-8.1.0-sdk/renpy/display/core.py", line 605, in visit_all
-    d.visit_all(callback, seen)
-  File "/home/caffreyu/Downloads/renpy-8.1.0-sdk/renpy/display/core.py", line 605, in visit_all
-    d.visit_all(callback, seen)
-  [Previous line repeated 1 more time]
-  File "/home/caffreyu/Downloads/renpy-8.1.0-sdk/renpy/display/screen.py", line 476, in visit_all
-    callback(self)
-  File "/home/caffreyu/Downloads/renpy-8.1.0-sdk/renpy/display/core.py", line 3969, in <lambda>
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "/home/caffreyu/Downloads/renpy-8.1.0-sdk/renpy/display/screen.py", line 487, in per_interact
-    self.update()
-  File "/home/caffreyu/Downloads/renpy-8.1.0-sdk/renpy/display/screen.py", line 680, in update
-    self.screen.function(**self.scope)
-  File "game/screens.rpy", line 532, in execute
-    screen load():
-  File "game/screens.rpy", line 532, in execute
-    screen load():
-  File "game/screens.rpy", line 536, in execute
-    use file_slots(_("读取游戏"),"viewport")
-  File "game/screens.rpy", line 539, in execute
-    screen file_slots(title,scroll=None):
-  File "game/screens.rpy", line 539, in execute
-    screen file_slots(title,scroll=None):
-  File "game/screens.rpy", line 546, in execute
-    side "c r":
-  File "game/screens.rpy", line 548, in execute
-    viewport id "slot":
-  File "game/screens.rpy", line 552, in execute
-    grid gui.file_slot_cols gui.file_slot_rows:
-  File "game/screens.rpy", line 557, in execute
-    for i in range(gui.file_slot_cols * gui.file_slot_rows):
-  File "game/screens.rpy", line 559, in execute
-    button:
-  File "game/screens.rpy", line 564, in execute
-    hbox:
-  File "game/screens.rpy", line 566, in execute
-    if FileTime(slot):
-  File "game/screens.rpy", line 568, in execute
-    vbox:
-  File "game/screens.rpy", line 573, in execute
-    text who
-  File "game/screens.rpy", line 573, in <module>
-    text who
-NameError: name 'who' is not defined
+  File "/home/caffreyu/Downloads/renpy-8.1.0-sdk/renpy/bootstrap.py", line 275, in bootstrap
+    renpy.main.main()
+  File "/home/caffreyu/Downloads/renpy-8.1.0-sdk/renpy/main.py", line 535, in main
+    renpy.loadsave.init()
+  File "/home/caffreyu/Downloads/renpy-8.1.0-sdk/renpy/loadsave.py", line 981, in init
+    get_cache(i).preload()
+  File "/home/caffreyu/Downloads/renpy-8.1.0-sdk/renpy/loadsave.py", line 930, in preload
+    self.get_json()
+  File "/home/caffreyu/Downloads/renpy-8.1.0-sdk/renpy/loadsave.py", line 911, in get_json
+    print ("[DEBUG] In get_json. rv is " + rv)
+TypeError: can only concatenate str (not "dict") to str
 
 Linux-5.15.0-72-generic-x86_64-with-glibc2.31 x86_64
 Ren'Py 8.1.0.23051307
 yuki 1.0
-Sun Jun  4 00:52:39 2023
+Sun Jun  4 02:26:49 2023

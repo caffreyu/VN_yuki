@@ -2,9 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 559: 'init' is not a keyword argument or valid child of the for statement.
-    init python:
-        ^
+File "game/screens.rpy", line 564: is not terminated with a newline. (Check strings and parenthesis.)
+                            action [
 
 Ren'Py Version: Ren'Py 8.1.0.23051307
-Sun Jun  4 00:50:39 2023
+Sun Jun  4 02:47:10 2023
