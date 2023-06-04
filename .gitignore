@@ -2,3 +2,5 @@
 game/save
 game/cache
 yukiseki_gui
+*.txt
+*.rpyc
