@@ -555,15 +555,21 @@ screen file_slots(title,scroll=None):
                 yalign 0.5
                 spacing 50
                 for i in range(gui.file_slot_cols * gui.file_slot_rows):
-                    $ slot = i + 1
+                    python:
+                        slot = i + 1
+                        name_to_save = ""
+                        if len(_history_list) != 0: 
+                            if type(_history_list[-1].who) is NoneType: 
+                                name_to_save = "     " + _history_list[-1].what
+                            else: 
+                                name_to_save = "【" + _history_list[-1].who + "】 " + _history_list[-1].what
                     
                     button:
                         background "gui/button/存读档_按钮_idle.png"
                         hover_background "gui/button/存读档_按钮_hover.png"
-                        # action FileAction(slot)
                         action [
-                            SetVariable("save_name", "【" + _history_list[-1].who + "】 " + _history_list[-1].what),
-                            FileSave(slot, confirm = True)
+                            SetVariable("save_name", name_to_save),
+                            FileAction(slot)
                         ]
                         hbox:
                             spacing 40
